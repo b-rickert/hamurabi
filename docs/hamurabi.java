@@ -18,9 +18,9 @@ public class HAMURABI {
 	Scanner input = new Scanner(System.in);
 
 	private void newYear() {
-		year += 1;
-		population += immigrants;
-		landPrice = (int) (10 * Math.random() + 17);
+		year += 1;    // year variable gets +1 
+		population += immigrants;  // population variable gets added to immigrants
+		landPrice = (int) (10 * Math.random() + 17); // 
 		System.out.println(report());
 		do {
 			System.out.print("HOW MANY ACRES DO YOU WISH TO BUY?  ");
